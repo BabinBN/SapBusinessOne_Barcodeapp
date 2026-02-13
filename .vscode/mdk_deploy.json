@@ -1,0 +1,10 @@
+{
+	"Application": "/home/user/projects/BarcodeApp/Application.app",
+	"Target": "Mobile Services",
+	"OtherApps": [
+		{
+			"Application": "/home/user/projects/BarcodeApp/Application.app",
+			"Target": "Mobile Services"
+		}
+	]
+}

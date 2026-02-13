@@ -1,0 +1,12 @@
+{
+    "DestinationName": "Barcode_app",
+    "OfflineEnabled": true,
+    "LanguageURLParam": "",
+    "OnlineOptions": {},
+    "OfflineOptions": {
+	"StoreParameters": {}
+},
+    "PathSuffix": "",
+    "SourceType": "Mobile",
+    "ServiceUrl":""
+}

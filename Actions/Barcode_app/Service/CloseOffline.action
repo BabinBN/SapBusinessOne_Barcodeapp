@@ -1,0 +1,10 @@
+{
+    "_Type": "Action.Type.OfflineOData.Close",
+    "Service": "/BarcodeApp/Services/Barcode_app.service",
+    "Force": true,
+    "ActionResult": {
+        "_Name": "close"
+    },
+    "OnSuccess": "/BarcodeApp/Actions/Barcode_app/Service/CloseOfflineSuccessMessage.action",
+    "OnFailure": "/BarcodeApp/Actions/Barcode_app/Service/CloseOfflineFailureMessage.action"
+}

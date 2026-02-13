@@ -1,0 +1,94 @@
+{
+    "Service": "/BarcodeApp/Services/Barcode_app.service",
+    "DefiningRequests": [{
+            "Name": "DeliveryNotes",
+            "Query": "DeliveryNotes"
+        },
+        {
+            "Name": "Invoices",
+            "Query": "Invoices"
+        },
+        {
+            "Name": "InventoryTransferRequests",
+            "Query": "InventoryTransferRequests"
+        },
+        {
+            "Name": "InventoryPostings",
+            "Query": "InventoryPostings"
+        },
+        {
+            "Name": "IncomingPayments",
+            "Query": "IncomingPayments"
+        },
+        {
+            "Name": "ItemGroups",
+            "Query": "ItemGroups"
+        },
+        {
+            "Name": "Items",
+            "Query": "Items"
+        },
+        {
+            "Name": "BusinessPartners",
+            "Query": "BusinessPartners"
+        },
+        {
+            "Name": "BarCodes",
+            "Query": "BarCodes"
+        },
+        {
+            "Name": "Branches",
+            "Query": "Branches"
+        },
+        {
+            "Name": "Attachments2",
+            "Query": "Attachments2"
+        },
+        {
+            "Name": "CreditNotes",
+            "Query": "CreditNotes"
+        },
+        {
+            "Name": "CreditCards",
+            "Query": "CreditCards"
+        },
+        {
+            "Name": "PurchaseOrders",
+            "Query": "PurchaseOrders"
+        },
+        {
+            "Name": "PurchaseInvoices",
+            "Query": "PurchaseInvoices"
+        },
+        {
+            "Name": "PurchaseQuotations",
+            "Query": "PurchaseQuotations"
+        },
+        {
+            "Name": "PurchaseRequests",
+            "Query": "PurchaseRequests"
+        },
+        {
+            "Name": "Projects",
+            "Query": "Projects"
+        },
+        {
+            "Name": "PriceLists",
+            "Query": "PriceLists"
+        },
+        {
+            "Name": "Quotations",
+            "Query": "Quotations"
+        },
+        {
+            "Name": "SalesPersons",
+            "Query": "SalesPersons"
+        }
+    ],
+    "_Type": "Action.Type.OfflineOData.Download",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnFailure": "/BarcodeApp/Actions/Barcode_app/Service/SyncFailureMessage.action",
+    "OnSuccess": "/BarcodeApp/Rules/Barcode_app/ErrorArchive_CheckForSyncError.js"
+}

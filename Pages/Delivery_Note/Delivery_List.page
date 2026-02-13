@@ -1,0 +1,51 @@
+{
+	"Controls": [
+		{
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			},
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.ContactCell",
+					"_Name": "SectionContactCell0",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
+					"ContactCell": {
+						"Visible": true,
+						"DetailImage": "res://contact.png",
+						"Headline": "",
+						"Subheadline": "Subheadline",
+						"Description": "Description",
+						"ContextMenu": {
+							"PerformFirstActionWithFullSwipe": true
+						}
+					},
+					"DataPaging": {
+						"ShowLoadingIndicator": false,
+						"PageSize": 50
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Page0",
+	"ActionBar": {
+		"Items": [],
+		"_Name": "ActionBar2",
+		"_Type": "Control.Type.ActionBar",
+		"Caption": "Delivery_List"
+	}
+}

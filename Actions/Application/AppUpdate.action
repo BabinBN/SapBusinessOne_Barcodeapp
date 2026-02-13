@@ -1,0 +1,8 @@
+{
+    "_Type": "Action.Type.ApplicationUpdate",
+    "ActionResult": {
+        "_Name": "AppUpdate"
+    },
+    "OnFailure": "/BarcodeApp/Rules/Application/AppUpdateFailure.js",
+    "OnSuccess": "/BarcodeApp/Rules/Application/AppUpdateSuccess.js"
+}

@@ -1,0 +1,9 @@
+{
+    "Service": "/BarcodeApp/Services/Barcode_app.service",
+    "_Type": "Action.Type.OfflineOData.Upload",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnSuccess": "/BarcodeApp/Actions/Barcode_app/Service/DownloadStartedMessage.action",
+    "OnFailure": "/BarcodeApp/Actions/Barcode_app/Service/SyncFailureMessage.action"
+}
